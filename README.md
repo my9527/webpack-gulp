@@ -9,7 +9,7 @@
 * 使用gulp 获取模块，动态编写 webpack.config.js 文件，然后启动 webpack-dev-server 或进行打包
 
 ###问题
-	在实现路由注册时，由于需要指定模块(template/templateUrl), 有两种解决方案，方案一使用 webpack 的require 将 模板文件打入js 文件中，方案二则是使用templateUrl 来指定相应的模版文件
+`在实现路由注册时，由于需要指定模块(template/templateUrl), 有两种解决方案，方案一使用 webpack 的require 将 模板文件打入js 文件中，方案二则是使用templateUrl 来指定相应的模版文件`
 ```javascript
 // utils/route.js
 {
